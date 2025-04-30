@@ -1,0 +1,12 @@
+[project]
+name = "zarr-reproducer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cucim-cu12>=25.4.0",
+    "itkwasm-downsample-cucim>=0.2.0",
+    "ngff-zarr[all]>=0.13.0",
+]
+
