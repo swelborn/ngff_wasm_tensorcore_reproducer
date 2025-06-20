@@ -4,9 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-    "cucim-cu12>=25.4.0",
-    "itkwasm-downsample-cucim>=0.2.0",
-    "ngff-zarr[all]>=0.13.0",
-]
+dependencies = ["ngff-zarr[all]>=0.13.0"]
 
+[tool.uv.sources]
+ngff-zarr = { git = "https://github.com/thewtex/ngff-zarr", rev = "2aeee99a39d9e0520169f888ccce2b0c822279d5" }
